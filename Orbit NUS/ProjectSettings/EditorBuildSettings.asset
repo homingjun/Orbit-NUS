@@ -4,5 +4,41 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Sub.unity
+    guid: c5e5c56ca96a29e42b1f82dfe7fe91e3
+  - enabled: 1
+    path: Assets/Scenes/Kent Ridge MRT.unity
+    guid: 6a9d421e5e7d62d43ae632ff688f052a
+  - enabled: 1
+    path: Assets/Scenes/Museum.unity
+    guid: 9346f637151b2414fa3ac8427eb3a4b5
+  - enabled: 1
+    path: Assets/Scenes/Opp KR MRT.unity
+    guid: c491bbca701792748ad6e08960d6c048
+  - enabled: 1
+    path: Assets/Scenes/Opp Science.unity
+    guid: e7cacff5adbacd74e804a5547b8381a1
+  - enabled: 1
+    path: Assets/Scenes/Raffles Hall.unity
+    guid: 865a19c2cf7117f42847e897f092e87f
+  - enabled: 1
+    path: Assets/Scenes/School of Design & Environment.unity
+    guid: 36c4720d958046d4d8422998569c541d
+  - enabled: 1
+    path: Assets/Scenes/Science.unity
+    guid: d8eb30244cfe32545ada2b5c6e9674d0
+  - enabled: 1
+    path: Assets/Scenes/University Field.unity
+    guid: 7ea0066eddb3ee14ea6ea36e871e4a26
+  - enabled: 1
+    path: Assets/Scenes/University Hall.unity
+    guid: 5e76912a457e9e04b8bbedb3a9978bfb
+  - enabled: 1
+    path: Assets/Scenes/USC & USH.unity
+    guid: 9bf53559522b59f4f9b0363457a30d31
+  - enabled: 1
+    path: Assets/Scenes/UTown.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
