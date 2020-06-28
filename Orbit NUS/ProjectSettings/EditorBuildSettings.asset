@@ -21,6 +21,48 @@ EditorBuildSettings:
     path: Assets/Scenes/Opp Science.unity
     guid: e7cacff5adbacd74e804a5547b8381a1
   - enabled: 1
+    path: Assets/Scenes/3 Way Junction.unity
+    guid: 8112c361adae0bd4885b39664d14e287
+  - enabled: 1
+    path: Assets/Scenes/AS8-CLB.unity
+    guid: 48307ee1370639346897d0753d5839a4
+  - enabled: 1
+    path: Assets/Scenes/Biz Building.unity
+    guid: c96cf6a7d6000d143b7e57e052d7bed6
+  - enabled: 1
+    path: Assets/Scenes/Biz.unity
+    guid: a8323d8fcd93f624f979c91a75140a57
+  - enabled: 1
+    path: Assets/Scenes/COMP1.unity
+    guid: a8f404d9e44416f4ba95481afcdd175f
+  - enabled: 1
+    path: Assets/Scenes/COMP2.unity
+    guid: 502c1102f9706ed419619cc33c4ceb7c
+  - enabled: 1
+    path: Assets/Scenes/FASS.unity
+    guid: 343245226612de24880114fc8ea3a031
+  - enabled: 1
+    path: Assets/Scenes/Biz.unity
+    guid: 1905faab17ef0224abe67c7933100a85
+  - enabled: 1
+    path: Assets/Scenes/I3.unity
+    guid: 6925a41f01f0da641ad99b323f4a4091
+  - enabled: 1
+    path: Assets/Scenes/KR & Sheares Hall.unity
+    guid: 882866a5b228ba547a7682a6c5b911a1
+  - enabled: 1
+    path: Assets/Scenes/RVRC.unity
+    guid: 10af1dd79ab311740a3e8dbdc40cd4ec
+  - enabled: 1
+    path: Assets/Scenes/The Deck.unity
+    guid: 37f6c4c1f2c34e945bc55a430c9a47c2
+  - enabled: 1
+    path: Assets/Scenes/Yusof Ishak House.unity
+    guid: 2f93e8a92968d4c41ad7e5bd32ec93df
+  - enabled: 1
+    path: Assets/Scenes/Yusof Ishak Plaza.unity
+    guid: a928ad72c7208c745a93a9178c127659
+  - enabled: 1
     path: Assets/Scenes/Raffles Hall.unity
     guid: 865a19c2cf7117f42847e897f092e87f
   - enabled: 1

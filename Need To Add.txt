@@ -1,0 +1,12 @@
+-------Scenes-------
+KR MRT to Science
+Between Science And U Hall (Science Stretch)
+Opp Musuem
+
+-------Sprites--------
+Construction Sprite
+Many building Sprites
+
+-------Stuff---------
+Display text for "dead ends"
+Location Display somewhere
