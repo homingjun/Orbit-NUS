@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Sub.unity
     guid: c5e5c56ca96a29e42b1f82dfe7fe91e3
   - enabled: 1
-    path: Assets/Scenes/Kent Ridge MRT.unity
+    path: Assets/Scenes/Kent Ridge MRT Opp.unity
     guid: 6a9d421e5e7d62d43ae632ff688f052a
   - enabled: 1
     path: Assets/Scenes/Museum.unity
