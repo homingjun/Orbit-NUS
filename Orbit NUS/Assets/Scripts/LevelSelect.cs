@@ -10,7 +10,7 @@ public class LevelSelect : MonoBehaviour
     {
         FindObjectOfType<AudioManager>().Play("Button");
         FindObjectOfType<AudioManager>().StopPlaying("Menu");
-        FindObjectOfType<AudioManager>().Play("BGM" + Random.Range(1, 4));
+        FindObjectOfType<SettingsMenu>().NextTrack();
         SceneLoad.prevScene = null;
         SceneManager.LoadScene(scene.name, LoadSceneMode.Single);
     }

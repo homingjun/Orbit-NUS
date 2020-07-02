@@ -37,12 +37,16 @@ public class SignBoard : MonoBehaviour
 
     public void OpenSignboardUI()
     {
+        //FindObjectOfType<AudioManager>().Play("Button");
+        //FindObjectOfType<DontDestroyCanvas>().Hide();
         SignboardUI.SetActive(true);
         Time.timeScale = 0;
     }
 
     public void CloseSignboardUI()
     {
+        //FindObjectOfType<AudioManager>().Play("Button");
+        //FindObjectOfType<DontDestroyCanvas>().Show();
         SignboardUI.SetActive(false);
         Time.timeScale = 1;
     }

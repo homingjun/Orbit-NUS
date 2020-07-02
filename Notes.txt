@@ -2,6 +2,7 @@
 KR MRT to Science
 Between Science And U Hall (Science Stretch)
 Opp Musuem
+Medicine
 
 -------Sprites--------
 Construction Sprite
@@ -9,4 +10,6 @@ Many building Sprites
 
 -------Stuff---------
 Display text for "dead ends"
-Location Display somewhere
+
+
+Remember to uncomment signboard codes when all is done.

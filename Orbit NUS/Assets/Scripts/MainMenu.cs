@@ -5,7 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-
+    public void BtnSound()
+    {
+        FindObjectOfType<AudioManager>().Play("Button");
+    }
     public void QuitGame()
     {
         FindObjectOfType<AudioManager>().Play("Button");

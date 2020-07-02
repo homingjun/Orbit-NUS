@@ -9,9 +9,10 @@ public class AudioManager : MonoBehaviour
 
     public static AudioManager instance;
 
+    public static int LastBGM;
+
     void Awake()
     {
-
         if (instance == null)
             instance = this;
         else
@@ -46,7 +47,10 @@ public class AudioManager : MonoBehaviour
             Debug.LogWarning("Sound: " + name + "not found!");
             return;
         }
-        s.source.Play();
+        if (SettingsMenu.IsMuted == false)
+        {
+            s.source.Play();
+        }
     }
 
     public void StopPlaying(string sound)
@@ -57,7 +61,11 @@ public class AudioManager : MonoBehaviour
             Debug.LogWarning("Sound: " + name + " not found!");
             return;
         }
-
         s.source.Stop();
+    }
+
+    public void StopLast()
+    {
+        StopPlaying("BGM" + LastBGM);
     }
 }
