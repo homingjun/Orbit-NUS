@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 5feda0ec096bdb4428747f83fdb2fa47
+  - enabled: 1
     path: Assets/Scenes/Engineering.unity
     guid: c5e5c56ca96a29e42b1f82dfe7fe91e3
   - enabled: 1
@@ -14,9 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Museum.unity
     guid: 9346f637151b2414fa3ac8427eb3a4b5
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Kent Ridge MRT.unity
+    guid: 3e8317fdd98e9c844b8c222df93c37f4
+  - enabled: 1
+    path: Assets/Scenes/NUSS.unity
+    guid: 91e78a10722c6df40883985a05c01c2e
   - enabled: 1
     path: Assets/Scenes/Opp Science.unity
     guid: e7cacff5adbacd74e804a5547b8381a1
@@ -29,9 +35,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Biz Building.unity
     guid: c96cf6a7d6000d143b7e57e052d7bed6
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/COMP1.unity
     guid: a8f404d9e44416f4ba95481afcdd175f
