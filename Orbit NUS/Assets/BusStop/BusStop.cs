@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class BusStop : MonoBehaviour
 {
     public bool isInRange;
+    public bool isUIOpen = false;
     public KeyCode interactKey;
     public GameObject BusStopUI;
 
@@ -15,7 +16,10 @@ public class BusStop : MonoBehaviour
         {
             if (Input.GetKeyDown(interactKey))
             {
-                OpenBusStopUI();
+                if (isUIOpen == false)
+                {
+                    OpenBusStopUI();
+                }
             }
         }
     }
@@ -38,17 +42,30 @@ public class BusStop : MonoBehaviour
 
     public void OpenBusStopUI()
     {
-        //FindObjectOfType<AudioManager>().Play("Button");
-        //FindObjectOfType<DontDestroyCanvas>().Hide();
+        isUIOpen = true;
+        FindObjectOfType<AudioManager>().Play("Button");
+        FindObjectOfType<DontDestroyCanvas>().Hide();
         BusStopUI.SetActive(true);
         Time.timeScale = 0;
     }
 
     public void CloseBusStopUI()
     {
-        //FindObjectOfType<AudioManager>().Play("Button");
-        //FindObjectOfType<DontDestroyCanvas>().Show();
+        isUIOpen = false;
+        FindObjectOfType<AudioManager>().Play("Button");
+        FindObjectOfType<DontDestroyCanvas>().Show();
         BusStopUI.SetActive(false);
         Time.timeScale = 1;
+    }
+    public void BtnSound()
+    {
+        FindObjectOfType<AudioManager>().Play("Button");
+    }
+
+    public void BusStopSelect(Object scene)
+    {
+        CloseBusStopUI();
+        SceneLoad.prevScene = null;
+        SceneManager.LoadScene(scene.name, LoadSceneMode.Single);
     }
 }

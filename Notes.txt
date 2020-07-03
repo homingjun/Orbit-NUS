@@ -3,6 +3,7 @@ KR MRT to Science
 Between Science And U Hall (Science Stretch)
 Opp Musuem
 Medicine
+Ventus LT13
 
 -------Sprites--------
 Construction Sprite
@@ -10,6 +11,7 @@ Many building Sprites
 
 -------Stuff---------
 Display text for "dead ends"
+Implement all busstops (Script done)
 
 
 Remember to uncomment signboard codes when all is done.

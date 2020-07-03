@@ -5,6 +5,7 @@ using UnityEngine;
 public class SignBoard : MonoBehaviour
 {
     public bool isInRange;
+    public bool isUIOpen = false;
     public KeyCode interactKey;
     public GameObject SignboardUI;
 
@@ -14,7 +15,10 @@ public class SignBoard : MonoBehaviour
         {
             if (Input.GetKeyDown(interactKey))
             {
-                OpenSignboardUI();
+                if (isUIOpen == false)
+                {
+                    OpenSignboardUI();
+                }
             }
         }
     }
@@ -37,6 +41,7 @@ public class SignBoard : MonoBehaviour
 
     public void OpenSignboardUI()
     {
+        isUIOpen = true;
         //FindObjectOfType<AudioManager>().Play("Button");
         //FindObjectOfType<DontDestroyCanvas>().Hide();
         SignboardUI.SetActive(true);
@@ -45,6 +50,7 @@ public class SignBoard : MonoBehaviour
 
     public void CloseSignboardUI()
     {
+        isUIOpen = false;
         //FindObjectOfType<AudioManager>().Play("Button");
         //FindObjectOfType<DontDestroyCanvas>().Show();
         SignboardUI.SetActive(false);

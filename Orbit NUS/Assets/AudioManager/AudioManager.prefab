@@ -46,31 +46,31 @@ MonoBehaviour:
   sounds:
   - name: Button
     clip: {fileID: 8300000, guid: f13a220f96fb5044a905503000e6d556, type: 3}
-    volume: 0
-    pitch: 0
+    volume: 1
+    pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Menu
     clip: {fileID: 8300000, guid: 94f6fcceee3d41e4297e02923a872c07, type: 3}
-    volume: 0
-    pitch: 0
+    volume: 1
+    pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: BGM1
     clip: {fileID: 8300000, guid: 83fedfe41f78d4947a4fc748586cc48c, type: 3}
-    volume: 0
-    pitch: 0
+    volume: 1
+    pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: BGM2
     clip: {fileID: 8300000, guid: ffd66914f7ba2cd4db41d33658fd5687, type: 3}
-    volume: 0
-    pitch: 0
+    volume: 1
+    pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: BGM3
     clip: {fileID: 8300000, guid: c64c7b5e5a608e84989644f6df5bd7f3, type: 3}
-    volume: 0
-    pitch: 0
+    volume: 1
+    pitch: 1
     loop: 1
     source: {fileID: 0}
