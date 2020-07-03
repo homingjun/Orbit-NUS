@@ -9,6 +9,8 @@ public class SettingsMenu : MonoBehaviour
 
     public static bool IsMuted = false;
 
+    public static bool IsPaused = false;
+
     private void Start()
     {
         AudioManager.LastBGM = Random.Range(1, 4); //Edit max when # of BGM change
@@ -17,11 +19,13 @@ public class SettingsMenu : MonoBehaviour
     public void Paused()
     {
         Time.timeScale = 0;
+        IsPaused = true;
     }
 
     public void UnPaused()
     {
         Time.timeScale = 1;
+        IsPaused = false;
     }
 
     public void Mute()

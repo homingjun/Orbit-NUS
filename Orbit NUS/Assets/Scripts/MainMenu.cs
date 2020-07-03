@@ -5,6 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public Animator GameTitle;
+    public Animator RocketFly;
+
+    private void Start()
+    {
+        GameTitle.SetTrigger("Title");
+        RocketFly.SetTrigger("Takeoff");
+    }
     public void BtnSound()
     {
         FindObjectOfType<AudioManager>().Play("Button");
