@@ -13,6 +13,13 @@ public class MainMenu : MonoBehaviour
         GameTitle.SetTrigger("Title");
         RocketFly.SetTrigger("Takeoff");
     }
+    
+    public void DiscoBtn()
+    {
+        FindObjectOfType<AudioManager>().Play("Button");
+        FindObjectOfType<SettingsMenu>().Disco();
+    }
+    
     public void BtnSound()
     {
         FindObjectOfType<AudioManager>().Play("Button");
