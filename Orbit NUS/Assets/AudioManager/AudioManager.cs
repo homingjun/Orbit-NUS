@@ -1,6 +1,7 @@
 ﻿using UnityEngine.Audio;
 using UnityEngine;
 using System;
+using Packages.Rider.Editor;
 
 public class AudioManager : MonoBehaviour
 {
@@ -41,6 +42,10 @@ public class AudioManager : MonoBehaviour
 
     public void Play(string name)
     {
+        if(SettingsMenu.DiscoMode)
+        {
+            name = "Disco" + name;
+        }
         Sound s = Array.Find(sounds, sound => sound.name == name);
         if (s == null)
         {
@@ -66,6 +71,13 @@ public class AudioManager : MonoBehaviour
 
     public void StopLast()
     {
-        StopPlaying("BGM" + LastBGM);
+        if (SettingsMenu.DiscoMode)
+        {
+            StopPlaying("DiscoBGM" + LastBGM);
+        }
+        else
+        {
+            StopPlaying("BGM" + LastBGM);
+        }
     }
 }

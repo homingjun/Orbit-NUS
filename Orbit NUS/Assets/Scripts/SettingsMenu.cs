@@ -8,12 +8,28 @@ public class SettingsMenu : MonoBehaviour
     private string CurrScene;
 
     public static bool IsMuted = false;
-
+    public static bool DiscoMode = false;
     public static bool IsPaused = false;
 
     private void Start()
     {
-        AudioManager.LastBGM = Random.Range(1, 4); //Edit max when # of BGM change
+        AudioManager.LastBGM = Random.Range(1, 5); //Edit max when # of BGM change
+    }
+
+    public void Disco()
+    {
+        if (DiscoMode)
+        {
+            FindObjectOfType<AudioManager>().StopPlaying("DiscoMenu");
+            DiscoMode = false;
+            FindObjectOfType<AudioManager>().Play("Menu");
+        }
+        else
+        {
+            FindObjectOfType<AudioManager>().StopPlaying("Menu");
+            DiscoMode = true;
+            FindObjectOfType<AudioManager>().Play("Menu");
+        }
     }
 
     public void Paused()
@@ -49,7 +65,7 @@ public class SettingsMenu : MonoBehaviour
     {
         int Number = AudioManager.LastBGM;
         Number += 1;
-        if (Number > 3) //Edit when # of BGM change
+        if (Number > 4) //Edit when # of BGM change
             Number = 1;
         AudioManager.LastBGM = Number;
         FindObjectOfType<AudioManager>().Play("BGM" + Number);
