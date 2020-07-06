@@ -3,15 +3,20 @@ KR MRT to Science
 Between Science And U Hall (Science Stretch)
 Opp Musuem
 Medicine
-Ventus LT13
+
 
 -------Sprites--------
 Construction Sprite
 Many building Sprites
 
+
 -------Stuff---------
-Display text for "dead ends"
-Implement all busstops (Script done)
+Implement all deadends (Prefab in extras) - just need to change map_name
+
+Implement all busstops (Prefab in Busstop) - just need to on and off interact buttons and change name | for last busstop follow Biz busstop
+(Last done: Com2)
+
+Implement all signboards (Prefab in Signboard) - just need to add image and change name
 
 
 Remember to uncomment signboard codes when all is done.

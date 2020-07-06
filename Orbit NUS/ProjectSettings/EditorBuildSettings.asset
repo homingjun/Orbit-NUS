@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Biz Building.unity
     guid: c96cf6a7d6000d143b7e57e052d7bed6
   - enabled: 1
+    path: Assets/Scenes/Ventus.unity
+    guid: 176c1b57fb6f4d7439af5d845f593ca6
+  - enabled: 1
     path: Assets/Scenes/COMP1.unity
     guid: a8f404d9e44416f4ba95481afcdd175f
   - enabled: 1
