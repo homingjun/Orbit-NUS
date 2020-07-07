@@ -1342,7 +1342,7 @@ PrefabInstance:
     - target: {fileID: 5853143134947255185, guid: ba18bdafc5a02714da15f72eac4f030d,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5853143134947255187, guid: ba18bdafc5a02714da15f72eac4f030d,
         type: 3}
@@ -1651,8 +1651,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 560191558}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.56, y: 8.14, z: 0}
-  m_LocalScale: {x: 3.0821, y: 3.0821, z: 3.0821}
+  m_LocalPosition: {x: 1.13, y: 8.14, z: 0}
+  m_LocalScale: {x: 3.18, y: 3.0821, z: 3.0821}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -1987,6 +1987,12 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: CloseSignboardUI
       objectReference: {fileID: 0}
+    - target: {fileID: 2968480911623852885, guid: fbd06c0c817afd049ab7c6f71c4305e9,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e42ea8646117b204dba5c3a7a47d3180,
+        type: 3}
     - target: {fileID: 2968480911623852886, guid: fbd06c0c817afd049ab7c6f71c4305e9,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2016,6 +2022,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968480911629114304, guid: fbd06c0c817afd049ab7c6f71c4305e9,
+        type: 3}
+      propertyPath: m_text
+      value: S17
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbd06c0c817afd049ab7c6f71c4305e9, type: 3}
