@@ -1,8 +1,6 @@
 -------Scenes-------
-KR MRT to Science
-Between Science And U Hall (Science Stretch)
-Opp Musuem
-Medicine
+KR MRT to Science (Medicine)
+Link up Sci - UHall - RVRC - Opp UHC
 
 
 -------Sprites--------
@@ -14,7 +12,7 @@ Many building Sprites
 Implement all deadends (Prefab in extras) - just need to change map_name
 
 Implement all busstops (Prefab in Busstop) - just need to on and off interact buttons and change name | for last busstop follow Biz busstop
-(Last done: Com2)
+(Last done: Eng)
 
 Implement all signboards (Prefab in Signboard) - just need to add image and change name
 

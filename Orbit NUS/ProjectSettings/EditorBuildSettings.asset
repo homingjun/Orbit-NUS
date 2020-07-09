@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/3 Way Junction.unity
     guid: 8112c361adae0bd4885b39664d14e287
   - enabled: 1
+    path: Assets/Scenes/Opp Museum.unity
+    guid: 40e7d9f5c1a51504c9cf704ea5b93a53
+  - enabled: 1
     path: Assets/Scenes/AS8-CLB.unity
     guid: 48307ee1370639346897d0753d5839a4
   - enabled: 1

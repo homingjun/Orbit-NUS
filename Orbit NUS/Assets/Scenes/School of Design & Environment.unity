@@ -7250,7 +7250,7 @@ PrefabInstance:
     - target: {fileID: 8517262598440367808, guid: b8d6a962fb5bc8e428742d4b674234b2,
         type: 3}
       propertyPath: rightScene
-      value: Sub
+      value: Engineering
       objectReference: {fileID: 0}
     - target: {fileID: 8517262598440367808, guid: b8d6a962fb5bc8e428742d4b674234b2,
         type: 3}
