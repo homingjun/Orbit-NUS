@@ -1,12 +1,11 @@
 -------Scenes-------
 KR MRT to Science (Medicine)
-Link up Sci - UHall - RVRC - Opp UHC
-
 
 -------Sprites--------
 Construction Sprite
 Many building Sprites
-
+RVRC
+UHall
 
 -------Stuff---------
 Implement all deadends (Prefab in extras) - just need to change map_name

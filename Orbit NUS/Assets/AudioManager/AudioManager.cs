@@ -2,9 +2,11 @@
 using UnityEngine;
 using System;
 using Packages.Rider.Editor;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
+    private string CurrScene;
 
     public Sound[] sounds;
 
@@ -37,7 +39,9 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        Play("Menu");
+        CurrScene = SceneManager.GetActiveScene().name;
+        if (CurrScene == "Main Menu")
+            Play("Menu");
     }
 
     public void Play(string name)
@@ -63,7 +67,7 @@ public class AudioManager : MonoBehaviour
         Sound s = Array.Find(sounds, item => item.name == sound);
         if (s == null)
         {
-            Debug.LogWarning("Sound: " + name + " not found!");
+            Debug.LogWarning("Sound: " + sound + " not found!");
             return;
         }
         s.source.Stop();
@@ -78,6 +82,14 @@ public class AudioManager : MonoBehaviour
         else
         {
             StopPlaying("BGM" + LastBGM);
+        }
+    }
+
+    public void StopAll()
+    {
+        foreach (Sound s in sounds)
+        {
+            s.source.Stop();
         }
     }
 }

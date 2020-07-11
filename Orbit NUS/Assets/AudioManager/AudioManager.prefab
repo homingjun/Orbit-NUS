@@ -81,13 +81,13 @@ MonoBehaviour:
     loop: 1
     source: {fileID: 0}
   - name: DiscoButton
-    clip: {fileID: 8300000, guid: c8a062e0a4e702543ae65f4fc0fe5cd7, type: 3}
+    clip: {fileID: 8300000, guid: 97305faa264bfb449b0e53fa8eb7588f, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: DiscoMenu
-    clip: {fileID: 8300000, guid: 4c08e56a3961e4e459aa50897b8b07b8, type: 3}
+    clip: {fileID: 8300000, guid: b2119d3b225fd6a47a892b384c78532b, type: 3}
     volume: 1
     pitch: 1
     loop: 1
@@ -111,7 +111,25 @@ MonoBehaviour:
     loop: 1
     source: {fileID: 0}
   - name: DiscoBGM4
-    clip: {fileID: 8300000, guid: bc37da40b023e884f89caf1779183c3f, type: 3}
+    clip: {fileID: 8300000, guid: f6a58155f46d41142a630ecb0be18e4c, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: UTown
+    clip: {fileID: 8300000, guid: 2aeca7f5249532e48a84a2d57a32de6b, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: DiscoUTown1
+    clip: {fileID: 8300000, guid: 18269824f1e952d4ab8965c8a285dde2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: DiscoUTown2
+    clip: {fileID: 8300000, guid: 565bf0d39bc41f546bf20daf0fd9e6d2, type: 3}
     volume: 1
     pitch: 1
     loop: 1

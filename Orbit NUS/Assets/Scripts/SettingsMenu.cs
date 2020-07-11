@@ -20,12 +20,14 @@ public class SettingsMenu : MonoBehaviour
     {
         if (DiscoMode)
         {
+            FindObjectOfType<AudioManager>().Play("Button");
             FindObjectOfType<AudioManager>().StopPlaying("DiscoMenu");
             DiscoMode = false;
             FindObjectOfType<AudioManager>().Play("Menu");
         }
         else
         {
+            FindObjectOfType<AudioManager>().Play("DiscoButton");
             FindObjectOfType<AudioManager>().StopPlaying("Menu");
             DiscoMode = true;
             FindObjectOfType<AudioManager>().Play("Menu");
@@ -75,7 +77,7 @@ public class SettingsMenu : MonoBehaviour
     {
         UnPaused();
         FindObjectOfType<AudioManager>().Play("Button");
-        FindObjectOfType<AudioManager>().StopLast();
+        FindObjectOfType<AudioManager>().StopAll();
         FindObjectOfType<AudioManager>().Play("Menu");
         SceneManager.LoadScene("Main Menu", LoadSceneMode.Single);
     }

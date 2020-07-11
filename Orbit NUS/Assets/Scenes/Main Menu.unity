@@ -176,6 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameTitle: {fileID: 1260459491}
   RocketFly: {fileID: 1180522211}
+  BackG: {fileID: 583867586}
 --- !u!1 &167029495
 GameObject:
   m_ObjectHideFlags: 0
@@ -1460,6 +1461,7 @@ GameObject:
   - component: {fileID: 583867583}
   - component: {fileID: 583867585}
   - component: {fileID: 583867584}
+  - component: {fileID: 583867586}
   m_Layer: 5
   m_Name: BG
   m_TagString: Untagged
@@ -1523,6 +1525,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583867582}
   m_CullTransparentMesh: 0
+--- !u!95 &583867586
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583867582}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: daef9dda531c33745b04fec218180e3a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &632156028
 GameObject:
   m_ObjectHideFlags: 0
