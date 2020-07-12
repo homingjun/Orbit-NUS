@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class BusStop : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class BusStop : MonoBehaviour
     public bool isUIOpen = false;
     public KeyCode interactKey;
     public GameObject BusStopUI;
+    public GameObject LoadingScreen;
+    public Slider slider;
 
     void Update()
     {
@@ -66,6 +69,24 @@ public class BusStop : MonoBehaviour
     {
         CloseBusStopUI();
         SceneLoad.prevScene = null;
-        SceneManager.LoadScene(scene.name, LoadSceneMode.Single);
+        StartCoroutine(LoadAsync(scene.name));
     }
+
+    IEnumerator LoadAsync(string sceneName)
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Single);
+
+        LoadingScreen.SetActive(true);
+
+        while(!operation.isDone)
+        {
+            float progress = Mathf.Clamp01(operation.progress / .9f);
+
+            slider.value = progress;
+
+            yield return null;
+        }
+    }
+
+
 }
