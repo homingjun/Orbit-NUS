@@ -676,6 +676,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6393177021691811105, guid: 73e867d11090f3b42862f080352c3c21,
+        type: 3}
+      propertyPath: m_text
+      value: Information Technology
+      objectReference: {fileID: 0}
     - target: {fileID: 6393177021722877520, guid: 73e867d11090f3b42862f080352c3c21,
         type: 3}
       propertyPath: m_Interactable
@@ -75082,7 +75087,7 @@ PrefabInstance:
     - target: {fileID: 3221625193622519538, guid: e9c4788ad071aab4d8199bebab9fca20,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -43.6
+      value: -44.32
       objectReference: {fileID: 0}
     - target: {fileID: 3221625193622519538, guid: e9c4788ad071aab4d8199bebab9fca20,
         type: 3}

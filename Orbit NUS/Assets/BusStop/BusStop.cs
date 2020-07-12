@@ -69,23 +69,25 @@ public class BusStop : MonoBehaviour
     {
         CloseBusStopUI();
         SceneLoad.prevScene = null;
-        StartCoroutine(LoadAsync(scene.name));
+        StartCoroutine(LoadScreen(scene.name));
+        
     }
 
-    IEnumerator LoadAsync(string sceneName)
+    IEnumerator LoadScreen(string sceneName)
     {
-        AsyncOperation operation = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Single);
+        float duration = 2f;
+        float timer = 0f;
 
         LoadingScreen.SetActive(true);
 
-        while(!operation.isDone)
+        while (timer <= 1f)
         {
-            float progress = Mathf.Clamp01(operation.progress / .9f);
-
-            slider.value = progress;
-
+            slider.value = timer;
+            timer += Time.deltaTime / duration;
             yield return null;
         }
+
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
 
 
