@@ -5,9 +5,13 @@ using UnityEngine;
 public class UTown : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        FindObjectOfType<AudioManager>().StopLast();
+        UTownMusic();
+    }
+    public void UTownMusic()
+    {
+        FindObjectOfType<AudioManager>().StopAll();
         if (SettingsMenu.DiscoMode)
         {
             if (Random.Range(1, 11) == 2)
@@ -27,9 +31,7 @@ public class UTown : MonoBehaviour
 
     public void StopMusic()
     {
-        FindObjectOfType<AudioManager>().StopPlaying("DiscoUTown2");
-        FindObjectOfType<AudioManager>().StopPlaying("DiscoUTown1");
-        FindObjectOfType<AudioManager>().StopPlaying("UTown");
+        FindObjectOfType<AudioManager>().StopAll();
         FindObjectOfType<SettingsMenu>().NextTrack();
     }
 

@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6443235064618989544}
   - component: {fileID: 6443235064618989545}
-  - component: {fileID: 6443235064618989546}
   - component: {fileID: 6443235064618989547}
   - component: {fileID: 6443235064618989540}
   - component: {fileID: 521998988271176912}
+  - component: {fileID: 7152598674992857767}
   m_Layer: 0
   m_Name: Professor
   m_TagString: Player
@@ -85,22 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6443235064618989546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6443235064618989542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1889eeda923b7b4a8ea9ab058114639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 10
-  rb: {fileID: 6443235064618989540}
-  animator: {fileID: 6443235064618989547}
-  interactKey: 0
 --- !u!95 &6443235064618989547
 Animator:
   serializedVersion: 3
@@ -111,7 +95,7 @@ Animator:
   m_GameObject: {fileID: 6443235064618989542}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 19458d6801d6af64ea654d71af692a02, type: 2}
+  m_Controller: {fileID: 9100000, guid: 407baebcab60308478dac811e0a15864, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -167,3 +151,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1875, y: 0.57366097}
   m_EdgeRadius: 0
+--- !u!114 &7152598674992857767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6443235064618989542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f20dfd8f25d57f47a54d8e679977aa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  rb: {fileID: 6443235064618989540}
+  an: {fileID: 6443235064618989547}

@@ -49,8 +49,7 @@ public class SettingsMenu : MonoBehaviour
     public void Mute()
     {
         IsMuted = true;
-        FindObjectOfType<AudioManager>().StopPlaying("Menu");
-        FindObjectOfType<AudioManager>().StopLast();
+        FindObjectOfType<AudioManager>().StopAll();
     }
 
     public void UnMute()
@@ -59,6 +58,8 @@ public class SettingsMenu : MonoBehaviour
         CurrScene = SceneManager.GetActiveScene().name;
         if (CurrScene == "Main Menu")
             FindObjectOfType<AudioManager>().Play("Menu");
+        else if (CurrScene == "UTown")
+            FindObjectOfType<UTown>().UTownMusic();
         else
             NextTrack();
     }
