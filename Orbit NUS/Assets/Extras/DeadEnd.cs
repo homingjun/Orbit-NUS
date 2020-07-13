@@ -11,6 +11,7 @@ public class DeadEnd : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             DeadEndUI.SetActive(true);
+            FindObjectOfType<DontDestroyCanvas>().Hide();
             Time.timeScale = 0;
         }
     }
@@ -18,6 +19,8 @@ public class DeadEnd : MonoBehaviour
     public void CloseDeadEndUI()
     {
         DeadEndUI.SetActive(false);
+        FindObjectOfType<AudioManager>().Play("Button");
+        FindObjectOfType<DontDestroyCanvas>().Show();
         Time.timeScale = 1;
     }
 }

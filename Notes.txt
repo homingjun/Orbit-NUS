@@ -17,3 +17,10 @@ Implement all signboards (Prefab in Signboard) - just need to add image and chan
 
 
 Remember to uncomment signboard codes when all is done.
+
+------Android Port-------
+- new player movement script
+- controller prefab
+- button press script
+- busstop & signboard script update
+- sceneloader script update

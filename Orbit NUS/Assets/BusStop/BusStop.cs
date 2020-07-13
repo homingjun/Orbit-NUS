@@ -79,6 +79,7 @@ public class BusStop : MonoBehaviour
         float timer = 0f;
 
         LoadingScreen.SetActive(true);
+        PlayerControl.isLoading = true;
 
         while (timer <= 1f)
         {
@@ -87,6 +88,7 @@ public class BusStop : MonoBehaviour
             yield return null;
         }
 
+        PlayerControl.isLoading = false;
         SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
 
