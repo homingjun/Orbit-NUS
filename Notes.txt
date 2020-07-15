@@ -1,5 +1,5 @@
--------Scenes-------
-KR MRT to Science (Medicine)
+Game is pretty much done. Probably some holes (deadends) not filled. Some signboards. And mostly buildings sprite.
+
 
 -------Sprites--------
 Construction Sprite
@@ -9,9 +9,6 @@ UHall
 
 -------Stuff---------
 Implement all deadends (Prefab in extras) - just need to change map_name
-
-Implement all busstops (Prefab in Busstop) - just need to on and off interact buttons and change name | for last busstop follow Biz busstop
-(Last done: Opp Museum)
 
 Implement all signboards (Prefab in Signboard) - just need to add image and change name
 
