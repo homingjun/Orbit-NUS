@@ -2714,9 +2714,8 @@ PrefabInstance:
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: scene
-      value: 
-      objectReference: {fileID: 102900000, guid: 5e76912a457e9e04b8bbedb3a9978bfb,
-        type: 3}
+      value: University Hall
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929955, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: m_Name
@@ -12559,9 +12558,8 @@ PrefabInstance:
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: scene
-      value: 
-      objectReference: {fileID: 102900000, guid: a928ad72c7208c745a93a9178c127659,
-        type: 3}
+      value: Yusof Ishak Plaza
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929955, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: m_Name

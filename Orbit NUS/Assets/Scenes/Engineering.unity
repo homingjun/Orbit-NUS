@@ -348,9 +348,8 @@ PrefabInstance:
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: scene
-      value: 
-      objectReference: {fileID: 102900000, guid: 36c4720d958046d4d8422998569c541d,
-        type: 3}
+      value: School of Design & Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: sl
@@ -799,9 +798,8 @@ PrefabInstance:
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: scene
-      value: 
-      objectReference: {fileID: 102900000, guid: 48307ee1370639346897d0753d5839a4,
-        type: 3}
+      value: AS8-CLB
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: sl
@@ -54011,7 +54009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df6a1d7196e4f5b4cbc616f9fe6bd828, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: {fileID: 102900000, guid: 865a19c2cf7117f42847e897f092e87f, type: 3}
+  scene: Raffles Hall
 --- !u!1 &1429484229
 GameObject:
   m_ObjectHideFlags: 0

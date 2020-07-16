@@ -1234,6 +1234,11 @@ PrefabInstance:
       propertyPath: right_y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8517262598440367808, guid: b8d6a962fb5bc8e428742d4b674234b2,
+        type: 3}
+      propertyPath: rightScene
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8517262598440367809, guid: b8d6a962fb5bc8e428742d4b674234b2,
         type: 3}
       propertyPath: m_Name
@@ -112791,7 +112796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 503cb045b2854f5408cec44c1f6da6cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: {fileID: 102900000, guid: 9346f637151b2414fa3ac8427eb3a4b5, type: 3}
+  scene: Museum
   UT: {fileID: 1073201096}
 --- !u!1 &1892703495 stripped
 GameObject:

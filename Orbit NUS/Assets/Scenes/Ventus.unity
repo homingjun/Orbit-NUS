@@ -26583,7 +26583,7 @@ PrefabInstance:
     - target: {fileID: 8517262598440367815, guid: b8d6a962fb5bc8e428742d4b674234b2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8517262598440367815, guid: b8d6a962fb5bc8e428742d4b674234b2,
         type: 3}
@@ -26693,9 +26693,8 @@ PrefabInstance:
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: scene
-      value: 
-      objectReference: {fileID: 102900000, guid: 343245226612de24880114fc8ea3a031,
-        type: 3}
+      value: FASS
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929953, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: m_Offset.y
@@ -26888,7 +26887,7 @@ Transform:
   - {fileID: 1554973977}
   - {fileID: 1279436530}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1713469316 stripped
 Transform:

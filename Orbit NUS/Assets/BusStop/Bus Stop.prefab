@@ -1544,14 +1544,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 5e76912a457e9e04b8bbedb3a9978bfb,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: University Hall
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177019815696774
@@ -1833,14 +1832,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 3e8317fdd98e9c844b8c222df93c37f4,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Kent Ridge MRT
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177019823418330
@@ -1964,14 +1962,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: e7cacff5adbacd74e804a5547b8381a1,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Opp Science
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177019829252320
@@ -2095,14 +2092,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: e7cacff5adbacd74e804a5547b8381a1,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Opp Science
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177019829578909
@@ -2300,14 +2296,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 176c1b57fb6f4d7439af5d845f593ca6,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Ventus
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177019835969164
@@ -2661,14 +2656,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 176c1b57fb6f4d7439af5d845f593ca6,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Ventus
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177019865547345
@@ -2945,18 +2939,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6393177019868261384}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6393177021573642920}
-        m_MethodName: BusStopSelect
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &6393177019874783210
 GameObject:
   m_ObjectHideFlags: 0
@@ -3694,14 +3677,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: d8eb30244cfe32545ada2b5c6e9674d0,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Science
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177019901177128
@@ -4757,14 +4739,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 48307ee1370639346897d0753d5839a4,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: AS8-CLB
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177019935336892
@@ -4888,14 +4869,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: c5e5c56ca96a29e42b1f82dfe7fe91e3,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Engineering
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177019944399255
@@ -5019,14 +4999,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 502c1102f9706ed419619cc33c4ceb7c,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: COMP2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177019966700669
@@ -6111,14 +6090,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 1905faab17ef0224abe67c7933100a85,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Biz
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020064800462
@@ -6398,14 +6376,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 40e7d9f5c1a51504c9cf704ea5b93a53,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Opp Museum
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020078828782
@@ -6529,14 +6506,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 502c1102f9706ed419619cc33c4ceb7c,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: COMP2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020087480194
@@ -7346,14 +7322,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: c5e5c56ca96a29e42b1f82dfe7fe91e3,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Engineering
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020133703643
@@ -7551,14 +7526,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 5e76912a457e9e04b8bbedb3a9978bfb,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: University Hall
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020139118676
@@ -8309,14 +8283,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: dc5d3ce9a43337b40baf7f30dd9a4343,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Opp KR MRT
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020202407000
@@ -8440,14 +8413,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 9bf53559522b59f4f9b0363457a30d31,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: USC & UHC
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020203446766
@@ -9504,14 +9476,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: d8eb30244cfe32545ada2b5c6e9674d0,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Science
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020284213161
@@ -10406,14 +10377,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 1905faab17ef0224abe67c7933100a85,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Biz
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020324144680
@@ -10853,14 +10823,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 8112c361adae0bd4885b39664d14e287,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 3 Way Junction
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020345026564
@@ -10984,14 +10953,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 9bf53559522b59f4f9b0363457a30d31,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: USC & UHC
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020362325881
@@ -11263,14 +11231,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 9bf53559522b59f4f9b0363457a30d31,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: USC & UHC
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020389815415
@@ -11550,14 +11517,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 2f93e8a92968d4c41ad7e5bd32ec93df,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Yusof Ishak House
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020400843532
@@ -11755,14 +11721,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 2cda990e2423bbf4892e6590ba056729,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: UTown
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020403465019
@@ -11957,18 +11922,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6393177020407115256}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6393177021573642920}
-        m_MethodName: BusStopSelect
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &6393177020407601079
 GameObject:
   m_ObjectHideFlags: 0
@@ -12394,14 +12348,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: dc5d3ce9a43337b40baf7f30dd9a4343,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Opp KR MRT
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020441354769
@@ -12837,14 +12790,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 5e76912a457e9e04b8bbedb3a9978bfb,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: University Hall
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020467447506
@@ -13126,14 +13078,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: a928ad72c7208c745a93a9178c127659,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Yusof Ishak Plaza
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020474796259
@@ -13719,18 +13670,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6393177020493587850}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6393177021573642920}
-        m_MethodName: BusStopSelect
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &6393177020496868709
 GameObject:
   m_ObjectHideFlags: 0
@@ -14240,14 +14180,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 1905faab17ef0224abe67c7933100a85,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Biz
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020525702115
@@ -14522,14 +14461,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 343245226612de24880114fc8ea3a031,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: FASS
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020536354653
@@ -14653,14 +14591,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 9346f637151b2414fa3ac8427eb3a4b5,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Museum
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020541824281
@@ -15248,14 +15185,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 865a19c2cf7117f42847e897f092e87f,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Raffles Hall
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020564636210
@@ -16623,14 +16559,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 502c1102f9706ed419619cc33c4ceb7c,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: COMP2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020631028501
@@ -16828,10 +16763,9 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 3e8317fdd98e9c844b8c222df93c37f4,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -16959,14 +16893,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: a928ad72c7208c745a93a9178c127659,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Yusof Ishak Plaza
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020655915657
@@ -17164,14 +17097,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 1905faab17ef0224abe67c7933100a85,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Biz
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020664610891
@@ -17451,14 +17383,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 7ea0066eddb3ee14ea6ea36e871e4a26,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: University Field
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020683427160
@@ -18025,7 +17956,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6393177020708501939
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18553,14 +18484,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 7ea0066eddb3ee14ea6ea36e871e4a26,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: University Field
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020720940574
@@ -21189,14 +21119,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 2f93e8a92968d4c41ad7e5bd32ec93df,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Yusof Ishak House
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020873900390
@@ -21703,14 +21632,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: c5e5c56ca96a29e42b1f82dfe7fe91e3,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Engineering
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020895119091
@@ -21872,14 +21800,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 48307ee1370639346897d0753d5839a4,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: AS8-CLB
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020916925190
@@ -22003,14 +21930,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 176c1b57fb6f4d7439af5d845f593ca6,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Ventus
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020923006135
@@ -22134,14 +22060,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 865a19c2cf7117f42847e897f092e87f,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Raffles Hall
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020931361164
@@ -22890,14 +22815,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 9346f637151b2414fa3ac8427eb3a4b5,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Museum
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020977023226
@@ -23021,14 +22945,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 8112c361adae0bd4885b39664d14e287,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 3 Way Junction
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177020982099586
@@ -23612,14 +23535,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: e7cacff5adbacd74e804a5547b8381a1,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Science
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021014379577
@@ -24213,14 +24135,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 3e8317fdd98e9c844b8c222df93c37f4,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Kent Ridge MRT
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021030391109
@@ -24447,7 +24368,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Raffles Hall
 
-    (Opp Musuem)'
+    (Opp Museum)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -25429,14 +25350,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 2cda990e2423bbf4892e6590ba056729,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: UTown
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021114411950
@@ -25716,14 +25636,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 2f93e8a92968d4c41ad7e5bd32ec93df,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Yusof Ishak House
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021118300146
@@ -25847,13 +25766,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Ventus
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021148196866
@@ -26675,14 +26594,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: dc5d3ce9a43337b40baf7f30dd9a4343,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Opp KR MRT
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021183359707
@@ -26796,7 +26714,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Raffles Hall
 
-    (Opp Musuem)'
+    (Opp Museum)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -27239,14 +27157,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 6925a41f01f0da641ad99b323f4a4091,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: I3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021197863466
@@ -27795,14 +27712,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 9346f637151b2414fa3ac8427eb3a4b5,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Museum
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021242871508
@@ -28382,14 +28298,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 343245226612de24880114fc8ea3a031,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: FASS
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021261345639
@@ -28827,14 +28742,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 7ea0066eddb3ee14ea6ea36e871e4a26,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: University Field
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021283147498
@@ -29267,14 +29181,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 2cda990e2423bbf4892e6590ba056729,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: UTown
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021298747881
@@ -29398,14 +29311,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 6925a41f01f0da641ad99b323f4a4091,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: I3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021308547934
@@ -29529,14 +29441,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 2cda990e2423bbf4892e6590ba056729,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: UTown
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021311781365
@@ -29660,14 +29571,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 6925a41f01f0da641ad99b323f4a4091,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: I3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021319650348
@@ -29791,14 +29701,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: a928ad72c7208c745a93a9178c127659,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Yusof Ishak Plaza
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021325397458
@@ -30451,14 +30360,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 48307ee1370639346897d0753d5839a4,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: AS8-CLB
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021385000955
@@ -30740,14 +30648,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 502c1102f9706ed419619cc33c4ceb7c,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: COMP2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021398454482
@@ -30871,14 +30778,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 865a19c2cf7117f42847e897f092e87f,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Raffles Hall
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021413055584
@@ -31702,14 +31608,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 48307ee1370639346897d0753d5839a4,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: AS8-CLB
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021454917884
@@ -32024,14 +31929,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 9346f637151b2414fa3ac8427eb3a4b5,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Museum
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021482940527
@@ -32691,14 +32595,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 2cda990e2423bbf4892e6590ba056729,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: UTown
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021560881293
@@ -32978,14 +32881,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: c5e5c56ca96a29e42b1f82dfe7fe91e3,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Engineering
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021573642916
@@ -33238,14 +33140,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 865a19c2cf7117f42847e897f092e87f,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Raffles Hall
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021587084764
@@ -33369,14 +33270,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 343245226612de24880114fc8ea3a031,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: FASS
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021597801468
@@ -33500,14 +33400,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: d8eb30244cfe32545ada2b5c6e9674d0,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Science
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021602846384
@@ -34173,14 +34072,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 2cda990e2423bbf4892e6590ba056729,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: UTown
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021621816000
@@ -35238,14 +35136,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: e7cacff5adbacd74e804a5547b8381a1,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Opp Science
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021662573225
@@ -35989,14 +35886,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: a928ad72c7208c745a93a9178c127659,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Yusof Ishak Plaza
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021691811103
@@ -36429,18 +36325,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6393177021704730410}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6393177021573642920}
-        m_MethodName: BusStopSelect
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &6393177021722642832
 GameObject:
   m_ObjectHideFlags: 0
@@ -36562,14 +36447,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 40e7d9f5c1a51504c9cf704ea5b93a53,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Opp Museum
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021722877518
@@ -36845,14 +36729,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: c5e5c56ca96a29e42b1f82dfe7fe91e3,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Engineering
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021735992260
@@ -37050,14 +36933,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 8112c361adae0bd4885b39664d14e287,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 3 Way Junction
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021755781793
@@ -37493,14 +37375,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6393177021573642920}
         m_MethodName: BusStopSelect
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: d8eb30244cfe32545ada2b5c6e9674d0,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Science
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6393177021773946133
@@ -37851,18 +37732,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6393177021793283944}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6393177021573642920}
-        m_MethodName: BusStopSelect
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &6393177021797795182
 GameObject:
   m_ObjectHideFlags: 0

@@ -133,6 +133,11 @@ PrefabInstance:
       propertyPath: sl
       value: 
       objectReference: {fileID: 1832720314}
+    - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
+        type: 3}
+      propertyPath: scene
+      value: Engineering
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929953, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: m_Offset.x
@@ -11767,9 +11772,8 @@ PrefabInstance:
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: scene
-      value: 
-      objectReference: {fileID: 102900000, guid: 343245226612de24880114fc8ea3a031,
-        type: 3}
+      value: FASS
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: sl
@@ -12370,9 +12374,8 @@ PrefabInstance:
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: scene
-      value: 
-      objectReference: {fileID: 102900000, guid: 2f93e8a92968d4c41ad7e5bd32ec93df,
-        type: 3}
+      value: Yusof Ishak House
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: sl

@@ -65,11 +65,11 @@ public class BusStop : MonoBehaviour
         FindObjectOfType<AudioManager>().Play("Button");
     }
 
-    public void BusStopSelect(Object scene)
+    public void BusStopSelect(string scene)
     {
         CloseBusStopUI();
         SceneLoad.prevScene = null;
-        StartCoroutine(LoadScreen(scene.name));
+        StartCoroutine(LoadScreen(scene));
         
     }
 

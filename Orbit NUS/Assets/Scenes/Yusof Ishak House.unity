@@ -180,9 +180,8 @@ PrefabInstance:
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: scene
-      value: 
-      objectReference: {fileID: 102900000, guid: 48307ee1370639346897d0753d5839a4,
-        type: 3}
+      value: AS8-CLB
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929955, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: m_Name
@@ -387,9 +386,8 @@ PrefabInstance:
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: scene
-      value: 
-      objectReference: {fileID: 102900000, guid: a928ad72c7208c745a93a9178c127659,
-        type: 3}
+      value: Yusof Ishak Plaza
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929953, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: m_Offset.x

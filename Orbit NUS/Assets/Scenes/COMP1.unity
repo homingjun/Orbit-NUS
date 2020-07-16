@@ -20946,9 +20946,8 @@ PrefabInstance:
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: scene
-      value: 
-      objectReference: {fileID: 102900000, guid: 502c1102f9706ed419619cc33c4ceb7c,
-        type: 3}
+      value: COMP2
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929953, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: m_Offset.x
@@ -23585,9 +23584,8 @@ PrefabInstance:
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: scene
-      value: 
-      objectReference: {fileID: 102900000, guid: 37f6c4c1f2c34e945bc55a430c9a47c2,
-        type: 3}
+      value: The Deck
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929955, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: m_Name

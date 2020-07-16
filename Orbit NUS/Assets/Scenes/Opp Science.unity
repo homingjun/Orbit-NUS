@@ -3902,9 +3902,8 @@ PrefabInstance:
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: scene
-      value: 
-      objectReference: {fileID: 102900000, guid: d8eb30244cfe32545ada2b5c6e9674d0,
-        type: 3}
+      value: Science
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929953, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: m_Offset.x
@@ -53049,9 +53048,8 @@ PrefabInstance:
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: scene
-      value: 
-      objectReference: {fileID: 102900000, guid: 7ea0066eddb3ee14ea6ea36e871e4a26,
-        type: 3}
+      value: University Field
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929953, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: m_Offset.y

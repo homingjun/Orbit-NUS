@@ -4,12 +4,12 @@ using UnityEngine.SceneManagement;
 
 public class Load_New_Scene : MonoBehaviour
 {
-    public Object scene;
+    public string scene;
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(scene.name, LoadSceneMode.Single);
+            SceneManager.LoadScene(scene, LoadSceneMode.Single);
         }
     }
 }

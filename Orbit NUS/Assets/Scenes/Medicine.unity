@@ -7655,9 +7655,8 @@ PrefabInstance:
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: scene
-      value: 
-      objectReference: {fileID: 102900000, guid: fe04207323f50ce4dabfb1aa712c47d6,
-        type: 3}
+      value: Medical Drive
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929955, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: m_Name

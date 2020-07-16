@@ -11375,9 +11375,8 @@ PrefabInstance:
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: scene
-      value: 
-      objectReference: {fileID: 102900000, guid: b709c45eb778fb04b858795d32df7846,
-        type: 3}
+      value: Medicine
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929953, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: m_Offset.x
@@ -11431,7 +11430,7 @@ PrefabInstance:
     - target: {fileID: 3486645725576929958, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929958, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
@@ -11531,6 +11530,75 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 415106466}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &528540996
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3111298855755920850, guid: 1e770c557cab65d46b98faecda017e69,
+        type: 3}
+      propertyPath: m_Name
+      value: EventSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111298855755920855, guid: 1e770c557cab65d46b98faecda017e69,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111298855755920855, guid: 1e770c557cab65d46b98faecda017e69,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111298855755920855, guid: 1e770c557cab65d46b98faecda017e69,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111298855755920855, guid: 1e770c557cab65d46b98faecda017e69,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111298855755920855, guid: 1e770c557cab65d46b98faecda017e69,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111298855755920855, guid: 1e770c557cab65d46b98faecda017e69,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111298855755920855, guid: 1e770c557cab65d46b98faecda017e69,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111298855755920855, guid: 1e770c557cab65d46b98faecda017e69,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111298855755920855, guid: 1e770c557cab65d46b98faecda017e69,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111298855755920855, guid: 1e770c557cab65d46b98faecda017e69,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111298855755920855, guid: 1e770c557cab65d46b98faecda017e69,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1e770c557cab65d46b98faecda017e69, type: 3}
 --- !u!1001 &580061917
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15342,9 +15410,8 @@ PrefabInstance:
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: scene
-      value: 
-      objectReference: {fileID: 102900000, guid: 3e8317fdd98e9c844b8c222df93c37f4,
-        type: 3}
+      value: Kent Ridge MRT
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929955, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: m_Name
@@ -15388,7 +15455,7 @@ PrefabInstance:
     - target: {fileID: 3486645725576929958, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929958, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
@@ -15537,9 +15604,8 @@ PrefabInstance:
     - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: scene
-      value: 
-      objectReference: {fileID: 102900000, guid: d8eb30244cfe32545ada2b5c6e9674d0,
-        type: 3}
+      value: Science
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929955, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: m_Name

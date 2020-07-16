@@ -6,13 +6,13 @@ using UnityEngine.SceneManagement;
 public class LevelSelect : MonoBehaviour
 {
 
-    public void StartSelect(Object scene)
+    public void StartSelect(string scene)
     {
         FindObjectOfType<AudioManager>().Play("Button");
         FindObjectOfType<AudioManager>().StopPlaying("Menu");
         FindObjectOfType<AudioManager>().StopPlaying("DiscoMenu");
         FindObjectOfType<SettingsMenu>().NextTrack();
         SceneLoad.prevScene = null;
-        SceneManager.LoadScene(scene.name, LoadSceneMode.Single);
+        SceneManager.LoadScene(scene, LoadSceneMode.Single);
     }
 }

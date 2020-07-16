@@ -4,14 +4,14 @@ using UnityEngine.SceneManagement;
 
 public class UTown_Exit : MonoBehaviour
 {
-    public Object scene;
+    public string scene;
     public UTown UT;
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Player"))
         {
             UT.StopMusic();
-            SceneManager.LoadScene(scene.name, LoadSceneMode.Single);
+            SceneManager.LoadScene(scene, LoadSceneMode.Single);
         }
     }
 }

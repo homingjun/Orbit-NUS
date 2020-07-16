@@ -380,7 +380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df6a1d7196e4f5b4cbc616f9fe6bd828, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: {fileID: 102900000, guid: 40e7d9f5c1a51504c9cf704ea5b93a53, type: 3}
+  scene: Opp Museum
 --- !u!61 &430427035
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42764,6 +42764,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3486645725576929952, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
+        type: 3}
+      propertyPath: scene
+      value: Engineering
+      objectReference: {fileID: 0}
     - target: {fileID: 3486645725576929955, guid: 3b07aa48fa30d19468b6bd5bc9c3fea0,
         type: 3}
       propertyPath: m_Name
