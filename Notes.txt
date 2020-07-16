@@ -11,6 +11,9 @@ UHall
 Implement all deadends (Prefab in extras) - just need to change map_name
 
 Implement all signboards (Prefab in Signboard) - just need to add image and change name
+-NUSS
+-Opp Museum
+
 
 
 Remember to uncomment signboard codes when all is done.
