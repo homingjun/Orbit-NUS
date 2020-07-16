@@ -42,8 +42,8 @@ public class SignBoard : MonoBehaviour
     public void OpenSignboardUI()
     {
         isUIOpen = true;
-        //FindObjectOfType<AudioManager>().Play("Button");
-        //FindObjectOfType<DontDestroyCanvas>().Hide();
+        FindObjectOfType<AudioManager>().Play("Button");
+        FindObjectOfType<DontDestroyCanvas>().Hide();
         SignboardUI.SetActive(true);
         Time.timeScale = 0;
     }
@@ -51,8 +51,8 @@ public class SignBoard : MonoBehaviour
     public void CloseSignboardUI()
     {
         isUIOpen = false;
-        //FindObjectOfType<AudioManager>().Play("Button");
-        //FindObjectOfType<DontDestroyCanvas>().Show();
+        FindObjectOfType<AudioManager>().Play("Button");
+        FindObjectOfType<DontDestroyCanvas>().Show();
         SignboardUI.SetActive(false);
         Time.timeScale = 1;
     }
