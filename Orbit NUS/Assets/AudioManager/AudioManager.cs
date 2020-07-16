@@ -1,7 +1,7 @@
 ﻿using UnityEngine.Audio;
 using UnityEngine;
 using System;
-using Packages.Rider.Editor;
+//using Packages.Rider.Editor;
 using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
