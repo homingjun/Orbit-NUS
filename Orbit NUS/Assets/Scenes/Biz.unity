@@ -262,7 +262,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 3e4a676c9a1664d489fd3f8eb9ff20d0,
+      objectReference: {fileID: 21300000, guid: 256fd8f21287c224ab571b83eb164a88,
         type: 3}
     - target: {fileID: 2968480911629114304, guid: fbd06c0c817afd049ab7c6f71c4305e9,
         type: 3}
@@ -26759,12 +26759,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c7062b4d0268f614790aad6e0f76bbc6,
+      objectReference: {fileID: 21300000, guid: c91d734217e76c04081baaf304bfd9b1,
         type: 3}
     - target: {fileID: 2968480911629114304, guid: fbd06c0c817afd049ab7c6f71c4305e9,
         type: 3}
       propertyPath: m_text
-      value: Hon Sui Sen Auditorium
+      value: BIZ2
       objectReference: {fileID: 0}
     - target: {fileID: 2968480911629114304, guid: fbd06c0c817afd049ab7c6f71c4305e9,
         type: 3}

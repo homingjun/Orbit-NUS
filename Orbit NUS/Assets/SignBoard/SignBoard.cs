@@ -13,7 +13,7 @@ public class SignBoard : MonoBehaviour
     {
         if (isInRange)
         {
-            if (Input.GetKeyDown(interactKey))
+            if (FindObjectOfType<ButtonPress>().buttonPressed == true)
             {
                 if (isUIOpen == false)
                 {

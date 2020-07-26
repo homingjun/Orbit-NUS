@@ -10,10 +10,21 @@ public class SettingsMenu : MonoBehaviour
     public static bool IsMuted = false;
     public static bool DiscoMode = false;
     public static bool IsPaused = false;
+    public Joystick joystick;
 
     private void Start()
     {
+        Screen.SetResolution(1600, 900, true);
         AudioManager.LastBGM = Random.Range(1, 5); //Edit max when # of BGM change
+    }
+
+    private void Update()
+    {
+        CurrScene = SceneManager.GetActiveScene().name;
+        if (CurrScene == "Main Menu")
+            joystick.gameObject.SetActive(false);
+        else
+            joystick.gameObject.SetActive(true);
     }
 
     public void Disco()
@@ -54,8 +65,7 @@ public class SettingsMenu : MonoBehaviour
 
     public void UnMute()
     {
-        IsMuted = false;
-        CurrScene = SceneManager.GetActiveScene().name;
+        IsMuted = false;   
         if (CurrScene == "Main Menu")
             FindObjectOfType<AudioManager>().Play("Menu");
         else if (CurrScene == "UTown")
